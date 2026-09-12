@@ -1,6 +1,6 @@
-Accounts Payable Analytics Dashboard
+# Accounts Payable Analytics Dashboard
 Interactive AP dashboard designed using Microsoft Excel, Pivot tables, Pivot charts and slicers. This analyses invoice aging, vendor payment trends, invoice count and average overdue days based on vendor.
-Overview
+# Overview
 1.	Business Problem
 Accounts payable represents the money a business owes its vendors for goods and services bought on credit that have not yet been paid. Businesses often manage invoices from multiple vendors across different payment statuses and currencies. This makes accounts payable management a critical financial process. Organizations may face overdue payments, duplicate payments and limited visibility into outstanding liabilities without effective monitoring. This could negatively impact supplier relationships and cash flow management. Therefore, it is important to analyze accounts payable data for understanding the current financial position and supporting timely payment decision. 
 2.	Business Goal
