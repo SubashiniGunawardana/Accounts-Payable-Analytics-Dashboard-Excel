@@ -13,12 +13,14 @@ This project used synthetic Accounts Payable dataset for portfolio purposes from
  <img width="975" height="665" alt="image" src="https://github.com/user-attachments/assets/3980c3df-bb4e-45ae-9554-9893cffaf4ff" />
 ## Dashboard 2 – Payment Performance
  <img width="975" height="729" alt="image" src="https://github.com/user-attachments/assets/3d93c06d-e194-4901-b7a5-5737b2ff1207" />
+
 # Tools Used
 •	Microsoft Excel
 •	Pivot Tables
 •	Pivot Charts
 •	Slicers
 •	Excel Formulas – KPI Calculations, IF, IFS, XLOOKUP formulas, Date functions, Currency Conversion
+
 # Data Preparations
 Parameters	Observations
 Number of observations	800
@@ -26,6 +28,7 @@ Number of variables	9
 Currencies	GBP, USD, CAD, AUD, EUR
 Reporting Currency	USD
 Date Range	2023-2025
+
 •	Imported Accounts Payable dataset into Microsoft Excel for analysis.
 •	Validated data quality by checking duplicate records. No duplicate invoices were identified.
 •	Checked missing values and identified blanks in the PaidDate column. These were retained because unpaid (partial and open) invoices do not have a paid date. 
@@ -34,6 +37,7 @@ Date Range	2023-2025
 •	Calculated overdue days by subtracting each invoice’s due date from a reporting reference date (30/07/2025). The reference date was dynamically generated using invoice date and due date.
 •	Created aging bucket based on the overdue days to classify outstanding invoices into Current, 1–30 Days, 31–60 Days, 61–90 Days and 90+ Days categories.
 •	Created KPI calculations including Total Payable Amount, Total Outstanding Amount, Days Payable Outstanding (DPO), Outstanding Rate, and Open Invoice Rate for dashboard reporting.
+
 # Key Business Questions and Insights
 Q1 – Which vendors have the highest accounts payable exposure based on invoice value, payments made and outstanding balances?
 1.	BluePrints has the highest total invoice amount, indicating it represents the largest supplier in the dataset.
@@ -63,6 +67,7 @@ Q7 – How do monthly invoice amounts compare with supplier payments over time?
 1.	Monthly invoice amounts consistently remains higher than monthly payment amounts throughout the reporting periods. This highlights the ongoing accounts payable obligations each month. 
 2.	Payment activity is more stable than invoice activity as most monthly payments remaining below 40K.
 3.	The gap between invoice amounts and payments varies by month, highlighting months where outstanding liabilities may accumulate due to lower payment activity relative to invoice volume.
+
 # Skills Demonstrated
 	Data cleaning
 	Excel Dashboard Design
