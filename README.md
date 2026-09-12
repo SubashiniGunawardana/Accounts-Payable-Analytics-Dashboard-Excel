@@ -19,11 +19,11 @@ This project used synthetic Accounts Payable dataset for portfolio purposes from
  <img width="975" height="729" alt="image" src="https://github.com/user-attachments/assets/3d93c06d-e194-4901-b7a5-5737b2ff1207" />
 
 ## Tools Used
-•	Microsoft Excel
-•	Pivot Tables
-•	Pivot Charts
-•	Slicers
-•	Excel Formulas – KPI Calculations, IF, IFS, XLOOKUP formulas, Date functions, Currency Conversion
+-	Microsoft Excel
+-	Pivot Tables
+-	Pivot Charts
+-	Slicers
+-	Excel Formulas – KPI Calculations, IF, IFS, XLOOKUP formulas, Date functions, Currency Conversion
 
 ## Data Preparations
 Parameters	Observations
@@ -81,12 +81,12 @@ Date Range	2023-2025
 3.	The gap between invoice amounts and payments varies by month, highlighting months where outstanding liabilities may accumulate due to lower payment activity relative to invoice volume.
 
 ## Skills Demonstrated
-	Data cleaning
-	Excel Dashboard Design
-	Pivot Tables
-	Pivot Charts
-	KPI Development
-	Currency Conversion
-	Financial Reporting
-	Data Visualization
+- Data cleaning
+-	Excel Dashboard Design
+-	Pivot Tables
+-	Pivot Charts
+- KPI Development
+-	Currency Conversion
+-	Financial Reporting
+-	Data Visualization
 
