@@ -1,32 +1,32 @@
 # Accounts Payable Analytics Dashboard
 Interactive AP dashboard designed using Microsoft Excel, Pivot tables, Pivot charts and slicers. This analyses invoice aging, vendor payment trends, invoice count and average overdue days based on vendor.
 
-# Overview
-## Business Problem
+## Overview
+### Business Problem
 Accounts payable represents the money a business owes its vendors for goods and services bought on credit that have not yet been paid. Businesses often manage invoices from multiple vendors across different payment statuses and currencies. This makes accounts payable management a critical financial process. Organizations may face overdue payments, duplicate payments and limited visibility into outstanding liabilities without effective monitoring. This could negatively impact supplier relationships and cash flow management. Therefore, it is important to analyze accounts payable data for understanding the current financial position and supporting timely payment decision. 
-## Business Goal
+### Business Goal
 The objective is to analyze accounts payable performance through an interactive Microsoft Excel dashboard. This dashboard monitors vendor payment performance, invoice aging, outstanding balances, payment trends and currency exposure. It provides a clear overview of AP activity across vendors, years and payment statuses to finance teams to support faster, data driven financial decision making.
-## About the Dataset
+### About the Dataset
 This project used synthetic Accounts Payable dataset for portfolio purposes from Kaggle. It includes 800 invoice records with 9 variables. The dataset reflects vendor details, invoice and payment details. The following image shows all the variables in this dataset.
 
 <img width="147" height="285" alt="image" src="https://github.com/user-attachments/assets/0fbbb7b8-2388-402a-ac34-b4101c2d13d1" />
 
-# Dashboard Preview
+## Dashboard Preview
 
-## Dashboard 1 – Financial Overview
+### Dashboard 1 – Financial Overview
  <img width="975" height="665" alt="image" src="https://github.com/user-attachments/assets/3980c3df-bb4e-45ae-9554-9893cffaf4ff" />
 
-## Dashboard 2 – Payment Performance
+### Dashboard 2 – Payment Performance
  <img width="975" height="729" alt="image" src="https://github.com/user-attachments/assets/3d93c06d-e194-4901-b7a5-5737b2ff1207" />
 
-# Tools Used
+## Tools Used
 •	Microsoft Excel
 •	Pivot Tables
 •	Pivot Charts
 •	Slicers
 •	Excel Formulas – KPI Calculations, IF, IFS, XLOOKUP formulas, Date functions, Currency Conversion
 
-# Data Preparations
+## Data Preparations
 Parameters	Observations
 Number of observations	800
 Number of variables	9
@@ -43,7 +43,7 @@ Date Range	2023-2025
 -	Created aging bucket based on the overdue days to classify outstanding invoices into Current, 1–30 Days, 31–60 Days, 61–90 Days and 90+ Days categories.
 -	Created KPI calculations including Total Payable Amount, Total Outstanding Amount, Days Payable Outstanding (DPO), Outstanding Rate, and Open Invoice Rate for dashboard reporting.
 
-# Key Business Questions and Insights
+## Key Business Questions and Insights
 
 ### Q1 – Which vendors have the highest accounts payable exposure based on invoice value, payments made and outstanding balances?
 
@@ -81,7 +81,7 @@ Date Range	2023-2025
 2.	Payment activity is more stable than invoice activity as most monthly payments remaining below 40K.
 3.	The gap between invoice amounts and payments varies by month, highlighting months where outstanding liabilities may accumulate due to lower payment activity relative to invoice volume.
 
-# Skills Demonstrated
+## Skills Demonstrated
 	Data cleaning
 	Excel Dashboard Design
 	Pivot Tables
