@@ -26,12 +26,15 @@ This project used synthetic Accounts Payable dataset for portfolio purposes from
 -	Excel Formulas – KPI Calculations, IF, IFS, XLOOKUP formulas, Date functions, Currency Conversion
 
 ## Data Preparations
-Parameters	Observations
-Number of observations	800
-Number of variables	9
-Currencies	GBP, USD, CAD, AUD, EUR
-Reporting Currency	USD
-Date Range	2023-2025
+### Dataset Summary
+| Parameter | Value |
+|-----------|-------|
+| Number of Records | **800** |
+| Number of Variables | **9** |
+| Reporting Currency | **USD** |
+| Original Currencies | GBP, USD, EUR, AUD, CAD |
+| Reporting Period | **2023–2025** |
+| Dashboard Reporting Date | **30 July 2025** |
 
 - Imported Accounts Payable dataset into Microsoft Excel for analysis.
 - Validated data quality by checking duplicate records. No duplicate invoices were identified.
