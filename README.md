@@ -12,7 +12,6 @@ This project used synthetic Accounts Payable dataset for portfolio purposes from
 <img width="147" height="285" alt="image" src="https://github.com/user-attachments/assets/0fbbb7b8-2388-402a-ac34-b4101c2d13d1" />
 
 ## Dashboard Preview
-
 ### Dashboard 1 – Financial Overview
  <img width="975" height="665" alt="image" src="https://github.com/user-attachments/assets/3980c3df-bb4e-45ae-9554-9893cffaf4ff" />
 
@@ -45,7 +44,7 @@ Date Range	2023-2025
 
 ## Key Business Questions and Insights
 
-### Q1 – Which vendors have the highest accounts payable exposure based on invoice value, payments made and outstanding balances?
+#### Q1 – Which vendors have the highest accounts payable exposure based on invoice value, payments made and outstanding balances?
 
 1.	BluePrints has the highest total invoice amount, indicating it represents the largest supplier in the dataset.
 2.	ABC Supplies has the highest outstanding amount approximately 152K. This suggests that it has the largest unpaid liability among all the vendors, while Fast travel has the lowest outstanding balance, indicating lower unpaid exposure than the other vendors.
